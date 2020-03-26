@@ -1,0 +1,15 @@
+@import './_variables.scss';
+
+nav {
+    // position: sticky;
+    // top: 0;
+    padding: $margin-medium;
+    background-color: white;
+    box-shadow: $box-shadow;
+    ul {
+        display: grid;
+        grid-template-columns: 40% 1fr 1fr 1fr 1fr;
+        grid-gap: $margin-medium;
+        height: $margin-medium;
+    }
+}

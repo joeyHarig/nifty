@@ -1,0 +1,39 @@
+@import './_variables.scss';
+
+.item-card {
+    min-width: 200px;
+    height: 160px;
+    background-position: center; 
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+    box-shadow: $box-shadow;
+    margin-right: $margin-small;
+    .info-container {
+        display: flex;
+        justify-content: space-between;
+        padding: $margin-extra-small;
+        background-color: white;
+        width: 100%;
+        h4 { font-size: 0.75rem; }
+    }
+}
+
+.saved-item-card {
+    min-width: 200px;
+    height: 160px;
+    background-position: center; 
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+    box-shadow: $box-shadow;
+    margin-right: $margin-small;
+    .info-container {
+        display: flex;
+        justify-content: space-between;
+        padding: $margin-extra-small;
+        background-color: white;
+        width: 100%;
+        h4 { font-size: 0.75rem; }
+    }
+}

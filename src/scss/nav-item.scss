@@ -1,0 +1,31 @@
+@import './_variables.scss';
+
+.nav-item {
+    display: flex;
+    justify-content: flex-end;
+    height: $margin-medium;
+    &:first-child {
+        justify-content: flex-start;
+        a > .icon { fill: $grey-5; }
+    }
+    a {
+        .icon, .underline { transition: 0.2s; }
+        .icon {
+            fill: $grey-3;
+            stroke: $grey-3;
+        }
+        .underline {
+             width: 100%;
+             height: 1px;
+             background: white;   
+        }
+        &:active, &.active {
+            .underline { background: $grey-5;   
+            }
+            .icon {
+                fill: $grey-5;
+                stroke: $grey-5;
+            }
+        }
+    }
+}

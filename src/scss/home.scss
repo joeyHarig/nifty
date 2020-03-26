@@ -1,0 +1,12 @@
+@import './_variables.scss';
+
+#home {
+    padding: $margin-medium 0;
+    img {
+        width: 80%;
+        margin-left: 50%;
+        transform: translateX(-50%);
+        margin-bottom: $margin-small;
+    }
+    p { line-height: 2; }
+}

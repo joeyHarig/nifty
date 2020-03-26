@@ -1,0 +1,16 @@
+@import './_variables.scss';
+
+#product-page{
+    padding: 0px 0px;
+    .image{
+        width: 100%;
+        height:260px;
+        margin-bottom: $margin-medium;
+        background-position: center; 
+        background-size: cover;
+    }
+    .product-info {
+        padding: 0 $margin-medium;
+        p {margin-bottom: $margin-small}
+    }
+}

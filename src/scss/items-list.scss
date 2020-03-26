@@ -1,0 +1,12 @@
+@import './_variables.scss';
+
+.items-list {
+    padding: 0;
+    h2 { padding: 0 $margin-medium; }
+    ul {
+        display: flex;
+        overflow-x: auto;
+        white-space: nowrap;
+        padding: 0 $margin-medium $margin-small $margin-medium;
+    }
+}

@@ -1,0 +1,23 @@
+@import './_variables.scss';
+
+#styles{
+    .search {
+        margin: $margin-medium;
+        padding: $margin-extra-small $margin-small;
+        border: 1px solid $grey-3;
+        display: flex;
+        justify-content: space-between;
+        input {
+            border: none;
+        }
+        span {
+            display: flex;
+            align-items: center;
+            .icon {
+                width: 24px;
+                fill: $grey-3;
+                margin-left: $margin-extra-small;
+            }
+        }
+    }
+}

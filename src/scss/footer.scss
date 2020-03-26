@@ -1,0 +1,11 @@
+@import './_variables.scss';
+
+footer {
+    padding: $margin-medium;
+    background-color: $grey-1;
+    ul {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
